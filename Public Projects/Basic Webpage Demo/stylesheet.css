@@ -1,0 +1,12 @@
+html
+{
+    background: rgb(0, 0, 0);
+    color: rgb(0, 255, 34); 
+    font-family: Consolas;
+}
+
+#banner
+{
+    height:70%;
+    width:70%;
+}
