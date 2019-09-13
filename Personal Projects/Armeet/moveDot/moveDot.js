@@ -11,7 +11,7 @@ function getPosition(event)
     var x = event.clientX - rect.left;
     var y = event.clientY - rect.top;
     console.log("< x: " + x + "y: " + y + " >");
-    updateCoordinates(x, y);
+    updateCoordinates(x, y);  
     drawDot(x,y);
 }
 
