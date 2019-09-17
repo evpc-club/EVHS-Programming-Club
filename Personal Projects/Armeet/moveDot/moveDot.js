@@ -12,7 +12,6 @@ function getPosition(event)
     var y = event.clientY - rect.top;
     console.log("< x: " + x + "y: " + y + " >");
     updateCoordinates(x, y);  
-    drawDot(x,y);
 }
 
 function updateCoordinates(x,y)
@@ -22,13 +21,4 @@ function updateCoordinates(x,y)
     console.log(y);
     document.getElementById("x").innerHTML = parseFloat(x);
     document.getElementById("y").innerHTML = "" + y;
-}
-
-function drawDot(x,y)
-{	
-    console.log("drawing dot");
-    var ctx = canvas.getContext("2d");
-    ctx.beginPath();
-    ctx.arc(x,y,1, 0, 2 * Math.PI, true);
-    ctx.fill();
 }

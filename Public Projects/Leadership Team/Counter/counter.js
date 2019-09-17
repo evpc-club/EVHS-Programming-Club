@@ -8,5 +8,6 @@ button.addEventListener('click', function()
 {
     //when the button is pressed, increment the counter
     counter.innerHTML = parseInt(counter.innerText) + 1;
+    console.log("button was pressed: " + counter.innerText);
 
 })
