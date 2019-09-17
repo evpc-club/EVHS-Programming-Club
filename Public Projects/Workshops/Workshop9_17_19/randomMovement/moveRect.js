@@ -24,7 +24,7 @@ function loop() {
   shape.y = shape.y + shape.dy;
   
   drawShape();
-  if(++count %5 == 0){
+  if(++count %15 == 0){
 	findRandomDirections();
 	count = 1;
   }
