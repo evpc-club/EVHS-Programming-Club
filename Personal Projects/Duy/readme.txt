@@ -1,4 +1,4 @@
-Name: Armeet Jaytani
+Name: Duy Nguyen
 Grade 10
-I like men (edited by Rushil)
+I know a person named Armeet Jaytani
 I KNOW EVERYTHING
