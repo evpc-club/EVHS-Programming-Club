@@ -1,0 +1,5 @@
+Firstname Lastname
+Grade 1
+I think bears are interesting.
+Blue
+Java, Python, JS, etc.
