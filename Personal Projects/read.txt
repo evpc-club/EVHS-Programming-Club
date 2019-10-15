@@ -1,1 +1,12 @@
-make your own personal project folder with your first name
+This is for your personal projects.
+
+1. Make a folder with your first name. 
+2. Inside the folder, make a yourname.md file and put
+  - your first and last name
+  - your grade
+  - something about you
+  - fav color
+  - programming languages you know
+(if you do know how md files work, feel free to make this prettier)
+3. Put your personal project in here. (or files with links to your repo on github)
+4. Thats all for now!
