@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="decoration.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+     <form name = "form"><input class = "display" name = "display"></form>
+    <table>
+        <tr>
+                    <td><button class = "button" onclick = "clearDisplay()">C</button></td>
+                    <td><button class = "button" onclick = "deleteFromEnd()">D</button></td>
+                    <td><button class = "button" onclick="insert('/')">/</button></td>
+                    <td><button class = "button" onclick="insert('*')">×</button></td>
+                </tr>
+                <tr>
+                    <td><button class = "button" onclick = "insert(7)">7</button></td>
+                    <td><button class = "button" onclick = "insert(8)">8</button></td>
+                    <td><button class = "button" onclick = "insert(9)">9</button></td>
+                    <td><button class = "button" onclick = "insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class = "button" onclick = "insert(4)">4</button></td>
+                    <td><button class = "button" onclick = "insert(5)">5</button></td>
+                    <td><button class = "button" onclick = "insert(6)">6</button></td>
+                    <td><button class = "button" onclick = "insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class = "button" onclick = "insert(1)">1</button></td>
+                    <td><button class = "button" onclick = "insert(2)">2</button></td>
+                    <td><button class = "button" onclick = "insert(3)">3</button></td>
+                    <td rowspan="2"><button id = "equal_button" class = "button" onclick = "evaluateExpression()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id = "zero_button" class = "button" onclick="insert(0)">0</button></td>
+                    <td><button class = "button" onclick = "insert('.')">.</button></td>
+        </tr>
+    </table>
+  </body>
+</html>
