@@ -17,7 +17,7 @@ The GitHub Repository for the EVHS Programming Club.
 # Instructions to Clone
 ##### type the following
 ```
-git clone https://github.com/xarmeetx/EVHS-Programming-Club/
+git clone https://github.com/EVHSProgrammingClub/EVHS-Programming-Club/
 ```
 
 ##### you should now be able to push and pull from the repo
